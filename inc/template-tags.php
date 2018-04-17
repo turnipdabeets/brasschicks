@@ -148,7 +148,7 @@ function plane_posted_on() {
 			)
 		);
 	elseif ( $format && in_array( $format, $formats[0] ) ) :
-		printf( __( '<span class="entry-format">%1$s</span> <span class="posted-on">%2$s</span><span class="byline">%3$s</span>', 'plane' ),
+		printf( __( '<span class="entry-format">%1$s</span> <span class="posted-on">%2$s</span>', 'plane' ),
 			sprintf( '<a href="%1$s" title="%2$s">%3$s</a>',
 				esc_url( get_post_format_link( $format ) ),
 				esc_attr( sprintf( __( 'All %s posts', 'plane' ), get_post_format_string( $format ) ) ),
@@ -164,7 +164,7 @@ function plane_posted_on() {
 			)
 		);
 	else :
-		printf( __( '<span class="posted-on">%1$s</span><span class="byline">%2$s</span>', 'plane' ),
+		printf( __( '<span class="posted-on">%1$s</span>', 'plane' ),
 			sprintf( '<a href="%1$s" rel="bookmark">%2$s</a>',
 				esc_url( get_permalink() ),
 				$time_string

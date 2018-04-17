@@ -164,7 +164,6 @@ blockquote {
 10.2 Posts and pages
 --------------------------------------------------------------*/
 /* Entry Meta */
-.entry-meta .byline,
 .entry-meta .featured,
 .entry-meta .posted-on,
 .entry-meta .cat-links,
@@ -178,7 +177,6 @@ blockquote {
   margin-right: 0;
 }
 
-.entry-meta .byline:before,
 .entry-meta .featured:before,
 .entry-meta .posted-on:before,
 .entry-meta .cat-links:before,
