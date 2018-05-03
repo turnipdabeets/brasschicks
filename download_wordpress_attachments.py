@@ -61,7 +61,7 @@ def download_url(url, _dir):
 
 
 if __name__ == "__main__":
-    root = parse_xml_file("/Users/annagarcia/Downloads/brasschicks/brasschicks.wordpress.2018-04-21.001.xml")
+    root = parse_xml_file("/Users/annagarcia/Downloads/brasschicks/brasschicks.wordpress.2018-05-02.xml")
     urls = get_urls(root)
     directories = get_directories(urls)
     create_directories(directories)
